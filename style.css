@@ -1,0 +1,38 @@
+body {
+    background-color: bisque; /* Sesuai modul [cite: 254] */
+    font-family: Arial, Helvetica, sans-serif; /* Sesuai modul [cite: 256] */
+    margin: 0;
+}
+
+#judul {
+    color: black;
+    text-align: center;
+    font-size: 24pt;
+    margin-top: 20px;
+}
+
+table {
+    display: inline-block; /* Sesuai modul [cite: 264] */
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.member {
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.mnama, .mposisi, .mtgl, .msub {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif; /* Sesuai modul [cite: 275] */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #2c3e50;
+}
+
+th {
+    padding: 15px;
+    font-size: 14pt;
+}
